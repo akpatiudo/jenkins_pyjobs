@@ -6,3 +6,6 @@ RUN apk add python3
 RUN apk add py3-pip
 
 USER jenkins
+
+# Expose port 3000
+EXPOSE 3000
